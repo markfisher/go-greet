@@ -28,4 +28,7 @@ spec:
       containers:
       - name: greeter
         image: docker.io/markfisher/greeter:v1
+        env:
+        - name: GREETING
+          value: Howdy
 
